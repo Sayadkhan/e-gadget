@@ -7,6 +7,7 @@ import Cart from "./Pages/Cart";
 import NotFound from "./Pages/NotFound";
 
 const App = () => {
+  // const {data, error, loading } =
   return (
     <>
       <div className="app min-h-screen bg-gray-50 text-gray-700 text-lg ">
