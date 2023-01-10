@@ -4,11 +4,12 @@ import productsReducer, {
   productsFetching,
 } from "../features/products/productSlice";
 
+import cartReducer from "../features/products/cartSlice";
+
 export const store = configureStore({
   reducer: {
-    //multiple reducers gose here....
-
     products: productsReducer,
+    cart: cartReducer,
   },
 });
 
